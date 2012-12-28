@@ -1,0 +1,41 @@
+body {
+  background: turquoise;
+}
+
+p {
+  font: normal normal normal 150% arial, verdana, sans-serif;
+  color : maroon;
+  text-align: center;
+}
+
+#en_gros {
+  font: normal normal normal 250% arial, verdana, sans-serif;
+}
+
+#zone {
+  margin : auto;
+  background: azure;
+  position: relative;  
+  overflow: hidden;
+  width: 1200px;
+  height: 550px;
+}
+
+#vaisseau {
+  left: 0px;
+  top: 100px;
+}
+
+#vaisseau {
+  background-image: url("images/VAISSEAU_POISSON.png");
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  text-align:center;
+  align:bottom;
+}
+
+#resultat {
+  font: normal normal normal 250% arial, verdana, sans-serif;
+  color : red;
+  }
